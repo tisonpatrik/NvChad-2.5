@@ -9,7 +9,6 @@ lint.linters_by_ft = {
 lint.linters.luacheck.args = {
     unpack(lint.linters.luacheck.args),
     "--globals",
-    "love",
     "vim",
 }
 
